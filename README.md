@@ -1,4 +1,4 @@
-This is the Unofficial Data Module for Cities War
+# Cities War Data Module
 
 CitiesWar is a multiplayer online game based on Google Maps where you can control the real city in the world.
 
