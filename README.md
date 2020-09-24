@@ -12,7 +12,8 @@ Python code for Integration:
 ```py
 import requests
 
-url = 'https://raw.githubusercontent.com/MikeyUsersREC/citieswar-data-module/master/PUT-FILENAME-HERE' -- Replace "Put-Filename-Here" with the data you want to use.
+url = 'https://raw.githubusercontent.com/MikeyUsersREC/citieswar-data-module/master/PUT-FILENAME-HERE'
+<!-- Replace "Put-Filename-Here" with the data you want to use. -->
 page = requests.get(url)
 print page.text
 ```
