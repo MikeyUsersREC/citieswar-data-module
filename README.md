@@ -13,7 +13,11 @@ Python code for Integration:
 import requests
 
 url = 'https://raw.githubusercontent.com/MikeyUsersREC/citieswar-data-module/master/PUT-FILENAME-HERE'
-<!-- Replace "Put-Filename-Here" with the data you want to use. -->
+```
+
+Replace "PUT-FILENAME-HERE" with your chosen data document of choice.
+
+```py
 page = requests.get(url)
 print page.text
 ```
